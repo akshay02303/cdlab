@@ -1,16 +1,13 @@
 # question : 20
-
 operators = {
             '+': 'A',
             '-': 'S',
             '*': 'M',
             '/': 'D'
         }
-
-expression = "ab*c+"
-
+expression=input()
+#expression = "ab*c+"
 stack = []
-
 for x in expression:
     if x.isalpha():
         stack.append(x)
